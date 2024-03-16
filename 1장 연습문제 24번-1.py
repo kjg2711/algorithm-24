@@ -17,6 +17,6 @@ for i in range(n) :
 for f in range(n):
     mylist.append(heapq.heappop(h))  # heappop을 통해 h가 mylist로 
 
-print("h 리스트",num1)
-print("mylist에 저장된 숫자를 정렬하여 출력",mylist )
+print("힙 리스트 출력",num1)
+print("mylsit 리스트 정렬되어 출력",mylist )
     

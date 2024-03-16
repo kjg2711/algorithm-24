@@ -1,3 +1,3 @@
-# algorithm-24
+# algorithm24
 
 # 김종규

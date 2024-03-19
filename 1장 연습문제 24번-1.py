@@ -1,5 +1,4 @@
 # 1장 연습문제 24번 
-
 import heapq
 
 inputnum = input("숫자들을 입력하세요 (콤마로 구분): ") # 콤마로 구분된 숫자를 입력받음
@@ -11,11 +10,10 @@ h=[] # 힙을 위한 리스트
 mylist=[] # 빈 리스트
 
 for i in range(n) :
-    heapq.heappush(h,num1[i]) # num1을 heapqpush를 통해 h에 추가
+    heapq.heappush(h,num1[i]) # num1을 heapqpush를 통해 h에 개별 요소로 추가
 
 for f in range(n):
     mylist.append(heapq.heappop(h))  # heappop을 통해 h 반환 append를 통해 반환한 h를 mylsit로 추가 
 
-print("힙 리스트 출력",num1)
-print("mylsit 리스트 정렬되어 출력",mylist )
-    
+print("h 출력: ",num1)
+print("mylsist 출력: ",mylist )
